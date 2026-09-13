@@ -2,7 +2,7 @@
 
 The starting point was the supplied academic project archive, `RPG.zip`. The team attribution in the original README is retained. No Git history was included, so original branch names, reviews and individual commits cannot be verified from this archive.
 
-The following changes were made with Codex assistance during portfolio preparation on 13 September 2026. They are separate from the original coursework contribution:
+The following changes were made during portfolio preparation on 13 September 2026. They are separate from the original coursework contribution:
 
 - Validate a complete save before replacing the player's state; reject malformed items, invalid counts, unknown item types and invalid progress.
 - Report save failures and support names containing spaces.
