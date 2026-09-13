@@ -1,0 +1,9 @@
+build/
+.zig-cache/
+*.exe
+*.obj
+*.o
+*.pdb
+save.txt
+__pycache__/
+.DS_Store
