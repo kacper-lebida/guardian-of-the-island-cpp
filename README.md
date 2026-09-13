@@ -56,7 +56,7 @@ Controls: **E** explore, **I** inventory, **U** use item, **S** save, **Q** quit
 
 ## Review status
 
-The portfolio version fixes boss progression, invalid damage ranges, malformed save handling, input recovery and restart state. Core regression tests and CLI smoke tests pass locally on Windows; direct C++17 builds with Zig 0.15.2 produce no compiler diagnostics. CMake and the Windows/Linux GitHub Actions workflow are included but have not yet been run in CI.
+The portfolio version fixes boss progression, invalid damage ranges, malformed save handling, input recovery and restart state. Core regression tests and CLI smoke tests pass locally on Windows; direct C++17 builds with Zig 0.15.2 produce no compiler diagnostics. CMake configuration, build and CTest passed on both Windows and Ubuntu in [GitHub Actions run #1](https://github.com/kacper-lebida/guardian-of-the-island-cpp/actions/runs/34759763455).
 
 See [portfolio preparation and validation](docs/portfolio-preparation.md) for changes, test coverage and remaining limitations. The original coursework and the later Codex-assisted improvements are documented separately.
 
@@ -71,4 +71,4 @@ Credits reproduced from the supplied project README:
 | Szymon Baran | Item hierarchy and MenuSystem |
 | Tomasz Kraska | Character, victory condition and loot |
 
-No license was included in the supplied archive. This draft does not assign a new license to the team's code.
+No license was included in the supplied archive. This repository does not assign a new license to the team's code.
